@@ -1,0 +1,108 @@
+.login-container {
+	max-width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.5s ease-in-out;
+}
+.login-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.login-container form {
+	display: flex;
+	flex-direction: column;
+}
+.login-container input {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+button.login-btn {
+	padding: 10px;
+	background-color: #267185;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	height: 44px;
+	cursor: pointer;
+}
+.login-container button:hover {
+	background-color: #1e5a6d;
+}
+#switchForm {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	color: #267185;
+	cursor: pointer;
+}
+#switchForm:hover {
+	text-decoration: underline;
+}
+#error-message {
+	color: red;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.PrivacyPolicy {
+	font-size: 11px;
+}
+.PrivacyPolicy a {
+	color: #267185;
+}
+.login-container img {
+	display: block;
+	margin: 0 auto;
+}
+.VkIdWebSdk__button_reset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+}
+.VkIdWebSdk__button {
+	background: #0077ff;
+	cursor: pointer;
+	transition: all 0.1s ease-out;
+	appearance: none;
+}
+.VkIdWebSdk__button:hover {
+	opacity: 0.8;
+}
+.VkIdWebSdk__button:active {
+	opacity: 0.7;
+	transform: scale(0.97);
+}
+.VkIdWebSdk__button {
+	border-radius: 8px;
+	width: 100%;
+	min-height: 44px;
+}
+.VkIdWebSdk__button_container {
+	display: flex;
+	align-items: center;
+	padding: 8px 10px;
+}
+.VkIdWebSdk__button_icon + .VkIdWebSdk__button_text {
+	margin-left: -28px;
+}
+.VkIdWebSdk__button_text {
+	display: flex;
+	font-family: -apple-system, system-ui, 'Helvetica Neue', Roboto, sans-serif;
+	flex: 1;
+	justify-content: center;
+	color: #ffffff;
+}
